@@ -1,0 +1,40 @@
+```
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build outputs (if any JS/TS build artifacts appear)
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+
+# Runtime-specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local configuration
+.env.local
+.env.*
+
+```
