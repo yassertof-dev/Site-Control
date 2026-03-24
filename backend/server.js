@@ -73,7 +73,7 @@ app.get('/api/dashboard/stats', async (req, res) => {
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'Construction Inventory API is running' });
+  res.json({ status: 'ok', message: 'مدير موارد المشروع - Project Resource Manager API is running' });
 });
 
 // Initialize database and start server
